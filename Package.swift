@@ -6,9 +6,6 @@ let package = Package(
     products: [
         .library(name: "IBLocalizable", targets: ["IBLocalizable"])
     ],
-    dependencies: [
-        .Package(url: "https://github.com/PiXeL16/IBLocalizable.git",majorVersion: 1)
-    ],
     targets: [
         .target(
             name: "IBLocalizable",
